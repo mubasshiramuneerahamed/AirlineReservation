@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://content.api.news/v3/images/bin/40b172391fc10fc200fddbe739d2c7d2);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booked-flights {
+    width: 100%;
+    text-align: right; /* Align text to the right */
+    padding: 20px; /* Optional: adjust if needed */
+  }
+  
+  .booked-flights h2 {
+    color: #333;
+    font-size: 36px; /* Increase font size */
+    margin: 120px 0 0 0; /* Add top margin to move text down */
+  }
+  
